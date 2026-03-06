@@ -37,7 +37,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.speed.FloatingNetworkMonitor</mainClass>
+                            <mainClass>org.speed.NetworkMonitorUI</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
