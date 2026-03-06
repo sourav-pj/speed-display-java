@@ -4,7 +4,8 @@ import java.io.*;
 import java.time.LocalDate;
 
 public class UsageLogger {
-    private static final String LOG_FILE = "network_usage_log.csv";
+    // This will create the log in C:\Users\YourName\network_usage_log.csv on Windows
+    private static final String LOG_FILE = System.getProperty("user.home") + File.separator + "network_usage_log.csv";
     private long dailyRx = 0;
     private long dailyTx = 0;
     private LocalDate currentDay = LocalDate.now();
