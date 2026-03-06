@@ -1,2 +1,2 @@
 # speed-display-java
-Provides a floating window on you screen that shows live network speed
+A simple java applicatio that provides a floating window on you screen that shows live network speed
